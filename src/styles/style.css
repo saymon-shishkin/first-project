@@ -45,4 +45,16 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 }
 .arial{
 	font-family: Arial, "Helvetica neue", Helvetica, sans-serif;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 700;
+	text-align: left;
+	text-decoration: underline none overline line-through ;
+	text-shadow: 10px 10px 5px #000000;
+	text-transform: capitalize;
+	text-indent: 20px;
+	letter-spacing: 3px;
+	word-spacing: 4px;
+	white-space: nowrap;
+	line-height: 100px;
 }
