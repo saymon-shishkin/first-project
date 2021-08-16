@@ -43,3 +43,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .all{
 	background: url('../assets/img/sky.jpg')
 }
+.arial{
+	font-family: Arial, "Helvetica neue", Helvetica, sans-serif;
+}
