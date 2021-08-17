@@ -58,3 +58,9 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 	white-space: nowrap;
 	line-height: 100px;
 }
+.example-block{
+	padding: 1% 20px 30px 5px;
+	border: 1px solid blue;
+	margin: 10px 10px 10px 10px;
+	width: 50%;
+}
