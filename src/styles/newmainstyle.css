@@ -34,35 +34,44 @@ ul li{liststyle: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
-
-.redtext{
-	color: red;
+.small {
+	color: blueviolet;
 	border: 1px solid blue;
+	padding: 10px 20% 0px;
+	margin: -1px -1px 0px;
+	background-color: lightblue;
+	height: 10%;
+
+}
+.adres {
+	margin: ;
+	font-size: 50px;
+	border: 1px solid blue;
+	display: inline-block;
+}
+.contact {
+	padding: 0px 50% 0px 0px;
+	border: 1px solid blue;
+	display: inline-block;
+	height: 50px;
+	width: 100px;
+}
+.number {
+	border: 1px solid blue;
+	display: inline-block;
+}
+.big {
+	color: blueviolet;
+	border: 1px solid blue;
+	padding: 20px 20% 10px;
+	margin: -1px -1px 0px;
+	background-color: lightblue;
 	
 }
-.all{
-	background: url('../assets/img/sky.jpg')
-}
-.arial{
-	font-family: Arial, "Helvetica neue", Helvetica, sans-serif;
-	font-size: 30px;
-	font-style: italic;
-	font-weight: 700;
-	text-align: left;
-	text-decoration: underline none overline line-through ;
-	text-shadow: 10px 10px 5px #000000;
-	text-transform: capitalize;
-	text-indent: 20px;
-	letter-spacing: 3px;
-	word-spacing: 4px;
-	white-space: nowrap;
-	line-height: 100px;
-}
-.example-block{
-	padding: 1% 20px 30px 5px;
+.button1 {
 	border: 1px solid blue;
-	margin: 10px 10px 10px 10px;
-	width: 5000px;
-	max-width: 70%;
-	overflow: hidden;
+	display: inline-block;
+}
+.Phone {
+	height: 32px;
 }
