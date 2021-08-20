@@ -36,42 +36,45 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .small {
 	color: blueviolet;
-	border: 1px solid blue;
-	padding: 10px 20% 0px;
-	margin: -1px -1px 0px;
+	border-bottom: 3px solid blue;
 	background-color: lightblue;
-	height: 10%;
-
+	height: 80px;
+	min-width: 400px;
+	padding: 0 0 0 20%;
 }
 .adres {
-	margin: ;
+	margin: 0 40% 0 0;
 	font-size: 50px;
-	border: 1px solid blue;
 	display: inline-block;
 }
 .contact {
-	padding: 0px 50% 0px 0px;
 	border: 1px solid blue;
 	display: inline-block;
-	height: 50px;
-	width: 100px;
+	background-color: whitesmoke;
+	margin: 5px 0 0 0;
+	box-shadow: 5px 5px 10px 5px #000;
+	border-radius: 10px;
+	opacity: 0.9;
 }
 .number {
-	border: 1px solid blue;
+	max: 0 50px 50px 0;
 	display: inline-block;
+	font-size: 20px;
+	margin-right: 5px;
 }
 .big {
 	color: blueviolet;
-	border: 1px solid blue;
-	padding: 20px 20% 10px;
-	margin: -1px -1px 0px;
+	border-bottom: 3px solid blue;
 	background-color: lightblue;
-	
+	height: 500px;
+	min-width: 1000px;
+	padding: 0 0 0 20%;
 }
 .button1 {
 	border: 1px solid blue;
 	display: inline-block;
 }
 .Phone {
-	height: 32px;
+	height: 64px;
+	border-radius: 60px;
 }
