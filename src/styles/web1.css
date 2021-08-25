@@ -60,10 +60,13 @@ h2{
 }
 p{
 	font-size: 20px;
+	margin
 	margin-bottom: 10px;
 	font-style: italic;
 	font-family: Arial, "Helvetica neue", Helvetica, sans-serif;
 }
-img{
-	size: 50px auto;
+input{
+	font-size: 20px;
+	box-shadow: 5px 5px 5px 2px;
+	margin: 0px 10px 10px 10px;
 }
