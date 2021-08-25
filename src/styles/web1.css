@@ -37,6 +37,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 body{
 	background-color: skyblue;
+	padding: 20px;
+	font-size: 20px;
 }
 div{
 	margin-bottom: 20px;
@@ -60,7 +62,6 @@ h2{
 }
 p{
 	font-size: 20px;
-	margin
 	margin-bottom: 10px;
 	font-style: italic;
 	font-family: Arial, "Helvetica neue", Helvetica, sans-serif;
@@ -68,13 +69,16 @@ p{
 input{
 	font-size: 20px;
 	box-shadow: 5px 5px 5px 2px;
-	margin: 0px 10px 10px 10px;
+	margin: 15px 10px 5px 10px;
 	border-radius: 5px;
+	border-radius: 2px;
 }
 button{
 	height: 60px;
 	width: 200px;
 	box-shadow: 5px 5px 5px 5px;
+	border-radius: 20px;
+	font-size: 20px;
 }
 .green{
 	background-color: green;
@@ -84,4 +88,10 @@ button{
 }
 textarea{
 	margin: 0px 0px 0px 20px;
+}
+img{
+	border-radius: 5px;
+}
+textarea{
+	box-shadow: 5px 5px 5px 5px;
 }
