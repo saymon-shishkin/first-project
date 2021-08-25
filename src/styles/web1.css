@@ -69,6 +69,7 @@ input{
 	font-size: 20px;
 	box-shadow: 5px 5px 5px 2px;
 	margin: 0px 10px 10px 10px;
+	border-radius: 5px;
 }
 button{
 	height: 60px;
@@ -80,4 +81,7 @@ button{
 }
 .red{
 	background-color: red;
+}
+textarea{
+	margin: 0px 0px 0px 20px;
 }
