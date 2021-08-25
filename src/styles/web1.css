@@ -34,43 +34,36 @@ ul li{liststyle: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
-.small {
-	color: blueviolet;
-	border-bottom: 3px solid blue;
-	background-color: lightblue;
-	height: 80px;
-	min-width: 400px;
-	padding: 0 0 0 20%;
+
+body{
+	background-color: skyblue;
 }
-.adres {
-	margin: 0 40% 0 0;
+div{
+	margin-bottom: 20px;
+}
+li{
+	padding-left: 5px;
+	background-image: url("../assets/img/point.png") no-repeat;
+}
+ul{
+	margin: 30px;
+}
+h1{
+	font-style: italic;
 	font-size: 50px;
-	display: inline-block;
+	margin-bottom: 15px;
 }
-.number {
-	background-color: whitesmoke;
-	margin: 5px 0 0 0;
-	padding-left: 60px;
-	box-shadow: 5px 5px 10px 5px #000;
-	border-radius: 10px;
-	opacity: 0.9;
-	background: url('../assets/img/number.png') 0 50%/auto 70% no-repeat ;
-	max: 0 50px 50px 0;
-	display: inline-block;
+h2{
+	font-style: italic;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+p{
 	font-size: 20px;
-	margin-right: 5 px;
-	border: 1px solid blue;
-	
+	margin-bottom: 10px;
+	font-style: italic;
+	font-family: Arial, "Helvetica neue", Helvetica, sans-serif;
 }
-.big {
-	color: blueviolet;
-	border-bottom: 3px solid blue;
-	background-color: lightblue;
-	height: 500px;
-	min-width: 1000px;
-	padding: 0 0 0 20%;
-}
-.button1 {
-	border: 1px solid blue;
-	display: inline-block;
+img{
+	size: 50px auto;
 }
