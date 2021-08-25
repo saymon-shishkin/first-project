@@ -70,3 +70,14 @@ input{
 	box-shadow: 5px 5px 5px 2px;
 	margin: 0px 10px 10px 10px;
 }
+button{
+	height: 60px;
+	width: 200px;
+	box-shadow: 5px 5px 5px 5px;
+}
+.green{
+	background-color: green;
+}
+.red{
+	background-color: red;
+}
