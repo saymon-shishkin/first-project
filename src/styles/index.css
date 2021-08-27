@@ -1,0 +1,75 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;	
+}
+*,*:before,*: after{
+	-moz-box-sizing:  border-box;
+	-webkit-box-sizing:  border-box;
+	-box-sizing:  border-box;
+}
+:focus,:activ{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside {display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input:-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a: visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{liststyle: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+.redtext{
+	color: red;
+	border: 1px solid blue;
+	
+}
+.all{
+	background: url('../assets/img/sky.jpg')
+}
+.arial{
+	font-family: Arial, "Helvetica neue", Helvetica, sans-serif;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 700;
+	text-align: left;
+	text-decoration: underline none overline line-through ;
+	text-shadow: 10px 10px 5px #000000;
+	text-transform: capitalize;
+	text-indent: 20px;
+	letter-spacing: 3px;
+	word-spacing: 4px;
+	white-space: nowrap;
+	line-height: 100px;
+}
+.example-block{
+	padding: 1% 20px 30px 5px;
+	border: 1px solid blue;
+	margin: 10px 10px 10px 10px;
+	width: 5000px;
+	max-width: 70%;
+	overflow: hidden;
+}
+li{
+	padding-left: 5px;
+	background-image: url("../assets/img/point.png") no-repeat;
+}
+ul{
+	margin: 30px;
+}
