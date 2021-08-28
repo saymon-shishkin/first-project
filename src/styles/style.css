@@ -35,14 +35,6 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
-.redtext{
-	color: red;
-	border: 1px solid blue;
-	
-}
-.all{
-	background: url('../assets/img/sky.jpg')
-}
 .arial{
 	font-family: Arial, "Helvetica neue", Helvetica, sans-serif;
 	font-size: 30px;
@@ -61,8 +53,20 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .example-block{
 	padding: 1% 20px 30px 5px;
 	border: 1px solid blue;
-	margin: 10px 10px 10px 10px;
+	margin: 10%;
 	width: 5000px;
 	max-width: 70%;
 	overflow: hidden;
+	box-shadow: 1px 1px 10px 1px;
+
+}
+li{
+	padding-left: 5px;
+	background-image: url("../assets/img/point.png") no-repeat;
+}
+ul{
+	margin: 20px;
+}
+p{
+	margin: 10px;
 }
